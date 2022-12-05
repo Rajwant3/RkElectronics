@@ -1,0 +1,112 @@
+#contact_content {
+    background-color: antiquewhite;
+    /* margin: 10px; */
+}
+
+.contact_medium {
+    float: left;
+    margin: auto;
+    color: white;
+    margin: auto;
+    width: 30%;
+
+}
+#text_content{
+ display: inline;
+ overflow: auto;
+float: left;
+}
+#container_contact{
+    width: 70%;
+}
+/* #left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#center{
+    margin: auto;
+} */
+#contact_options {
+    background-color: teal;
+    overflow: auto;
+    align-content: center;
+    align-items: center;
+    color: white;
+
+    /* width: 80%; */
+}
+
+.contact_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: black solid;
+    
+}
+
+table {
+    border-spacing: 20px;
+    width: 100%;
+    /* color: teal; */
+}
+
+table button {
+    float: right;
+    width: 45%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+}
+
+table button {
+    transition-duration: 0.4s;
+}
+
+table button:hover {
+    background-color: black;
+    /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+table input {
+    border-radius: 30px;
+    width: 40%;
+    border: 2px solid teal;
+    height: 30px;
+
+}
+table td{
+    width: auto;
+}
+textarea {
+    height: 40px;
+
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    border-radius: 30px;
+    overflow: hidden;
+
+  }
+#contact_table {
+    /* border: seagreen thick; */
+    /* margin: 10px; */
+    /* width: fit-content; */
+    border-radius: 4px;
+    /* box-shadow: 2px 2px 20px 23px #7fecad; */
+    /* background-image: url("../images/background/header-background.jpeg"); */
+    color: teal;
+    font-weight: bold;
+    font-size: 30px;
+}

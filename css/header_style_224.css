@@ -1,0 +1,82 @@
+/* Header section styles Start */
+
+/* html
+{
+    overflow: scroll;
+} */
+
+/* header
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+
+} */
+
+body{
+    background-image: url("../images/background/bg-2.jpg");
+}
+header img {
+    display: inline;
+    width: 100%;
+    height: 10%;
+}
+
+/* #logo {
+    position: absolute;
+    left: 0%;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #233647;
+    text-align: right;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    padding-top: 1px;
+}
+
+nav li a {
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #233647;
+}
+.active{
+    background-color: white;
+    color: #233647;
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 11px;
+
+    /* width:1;
+    height:40px; */
+    color: white;
+    overflow: hidden;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+
+}
+
+
+/* Header section styling end. */

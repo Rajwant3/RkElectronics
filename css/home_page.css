@@ -1,0 +1,10 @@
+/* #main_div_1{
+    background-image: url("../images/background/background-img.jpg");
+    width: 80%;
+    height: 80%;
+    background-color: red;
+} */
+
+body{
+    background-image: url("../images/background/bg-2.jpg");
+}
