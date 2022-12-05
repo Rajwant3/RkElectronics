@@ -16,7 +16,7 @@
 } */
 
 body{
-    background-image: url("../images/background/bg-2.jpg");
+    background-image: url("../images/background/bg-5.jpg");
 }
 header img {
     display: inline;
@@ -76,6 +76,9 @@ nav li a:hover {
     /* font-weight: bold; */
     text-transform: uppercase;
 
+}
+#about_us_body{
+    background-image: url("../images/background/bg-5.jpg");
 }
 
 
