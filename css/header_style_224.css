@@ -14,7 +14,8 @@
     height: 90px;
 
 } */
-
+/* html { overflow-y: scroll; }
+body { position: absolute; } */
 body{
     background-image: url("../images/background/bg-5.jpg");
 }
@@ -72,7 +73,7 @@ nav li a:hover {
     /* width:1;
     height:40px; */
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* font-weight: bold; */
     text-transform: uppercase;
 
