@@ -34,7 +34,7 @@
 }
 
 #contact_options {
-    background-color: teal ;
+    background-color: black ;
     opacity: 0.8;
     color: white;
     width: fit-content;
@@ -64,7 +64,7 @@ table input,
 textarea {
     border-radius: 30px;
     width: fit-content;
-    border: 2px solid teal;
+    border: 2px solid black;
     height: 30px;
 
 }
@@ -81,16 +81,16 @@ textarea {
 #contact_form_table {
     margin: 10px;
     width: fit-content;
-    color: teal ;
+    color: black ;
     font-weight: bold;
-    border: teal solid;
+    border: black solid;
     border-radius: 30px;
 }
 
 #contact_form_table h4 {
     text-align: center;
     padding: 10px;
-    background-color: teal;
+    background-color: black;
     color: white;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -99,7 +99,7 @@ textarea {
 
 /* CSS */
 table button {
-    background-color: teal;
+    background-color: black;
     border-radius: 100px;
     box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
     color: white;
