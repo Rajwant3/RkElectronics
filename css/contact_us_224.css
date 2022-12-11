@@ -1,3 +1,13 @@
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    margin: 50px;
+    margin-top: 20px;
+  }
+
 #contact_content {
     background-color: antiquewhite;
     /* margin: 10px; */
@@ -6,43 +16,71 @@
 .contact_medium {
     float: left;
     margin: auto;
-    color: white;
+    color: black;
     padding: 2%;
+    width: 29.1%;
+    height: 300px;
+    display: flex;
+    justify-content: center;    
     /* margin: auto; */
     /* width: 30%; */
 
 }
 
-.contact_medium a{
-   text-decoration: none;
-   color: white;
+.contact_medium a {
+    text-decoration: none;
+    color: black;
     /* margin: auto; */
     /* width: 30%; */
 
 }
+
+.contact_medium {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .contact_medium:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  /* .container {
+    padding: 2px 16px;
+  } */
+  
 
 
 
 #text_content {
-  background-color: black;
-  color: white;
-  width: 100%;
-  text-align: center;
-  opacity: 1;
-  /* padding: 5px; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    /* padding: 5px; */
 
 }
 
 #contact_options {
-    background-color: black ;
-    opacity: 0.8;
-    color: white;
-    width: fit-content;
-    position:absolute;
-    top:10%;
-    right:3%;
-    margin: 3%;
-    width: 60%;
+    background-color: white;
+    /* opacity: 0.8; */
+    color: black;
+    /* width: fit-content; */
+    /* position:fixed; */
+    /* top:10%; */
+    /* right:3%; */
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+    height: fit-content;
+    border: 2px solid black;
+    margin-bottom: 40%;
+
+    overflow: auto;
+
     /* padding: 3%; */
 }
 
@@ -79,9 +117,10 @@ textarea {
 }
 
 #contact_form_table {
-    margin: 10px;
+    margin: auto;
+    margin-top: 2%;
     width: fit-content;
-    color: black ;
+    color: black;
     font-weight: bold;
     border: black solid;
     border-radius: 30px;
@@ -101,7 +140,9 @@ textarea {
 table button {
     background-color: black;
     border-radius: 100px;
-    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    box-shadow: rgba(1, 1, 1, .2) 0 -25px 18px -14px inset, rgba(1, 1, 1, .15) 0 1px 2px,
+     rgba(1, 1, 1, .15) 0 2px 4px, rgba(1, 1, 1, .15) 0 4px 8px, rgba(1, 1, 1, .15) 0 8px 16px,
+      rgba(1, 1, 1, .15) 0 16px 32px;
     color: white;
     cursor: pointer;
     display: inline-block;
@@ -119,6 +160,10 @@ table button {
 }
 
 table button:hover {
-    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    box-shadow: rgba(38, 40, 38, 0.35) 0 -25px 18px -14px inset,
+        rgba(38, 40, 38, 0.35) 0 1px 2px,
+        rgba(38, 40, 38, 0.35) 0 2px 4px,
+        rgba(38, 40, 38, 0.35) 0 4px 8px,
+        rgba(38, 40, 38, 0.35) 0 8px 16px, rgba(38, 40, 38, 0.35) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
 }
