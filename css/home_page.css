@@ -6,15 +6,63 @@
 } */
 
 
-#main_div_1{
+#main_div_1 {
     /* position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     top: 0;
     bottom: 0; */
- margin-top: 10%;
- margin-left: 40% ;
+    margin: 5%;
+    margin-left: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    animation-name: maindiv;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 30%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+
+
+}
+
+@keyframes maindiv {
+    0%   {background-color:black; color: white; opacity: 0.7; left:0px; top:0px;}
+    25%  {background-color:white; color: black;opacity: 0.7; left:200px; top:0px;}
+    50%  {background-color:black;color: white;opacity: 0.7; left:200px; top:100px;}
+    75%  {background-color:white;color: black; opacity: 0.7;left:0px; top:100px;}
+    100% {background-color:black; color: white; opacity: 0.7;left:0px; top:0px;}
+  }
+
+#main_div_1 h1 {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+#main_div_1 h3 {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+#main_div_1 h5 {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 
 /* 

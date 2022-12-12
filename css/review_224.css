@@ -1,7 +1,10 @@
 
 .container {
-    border: 2px solid #ccc;
-    background-color: #eee;
+    border: 3px solid white;
+    border-radius: 30px;
+
+    background-color: black;
+    color: white;
     border-radius: 5px;
     padding: 16px;
     margin: 16px 16px;
@@ -10,7 +13,20 @@
     float: left;
     
   }
+  body h2,p{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  body h2{
+ 
+    font-size: 3rem;
+  }
+  body p{
   
+    font-size: 1rem;
+  }
   .container::after {
     content: "";
     clear: both;
@@ -21,6 +37,7 @@
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+    border: 2px dotted white;
   }
   
   .container span {
@@ -38,3 +55,85 @@
         display: block;
     }
   }
+
+  #review_form_table {
+    /* margin: auto; */
+    /* margin-top: 2%; */
+    width: fit-content;
+    color: black;
+    font-weight: bold;
+    border: black solid;
+    border-radius: 30px;
+    margin: 30%;
+    margin-top: 3%;
+    margin-left: 3%;
+
+  
+
+    float: right;
+}
+
+table {
+  border-spacing: 10px;
+  /* width: 100%; */
+  /* color: teal; */
+}
+
+table input,
+textarea, #photo {
+  border-radius: 30px;
+  width: fit-content;
+  border: 2px solid black;
+  height: 30px;
+
+}
+
+table td {
+  width: fit-content;
+}
+
+textarea {
+  height: 85px;
+
+}
+#review_form_table h4 {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+
+}
+
+/* CSS */
+table button {
+  background-color: black;
+  border-radius: 100px;
+  box-shadow: rgba(1, 1, 1, .2) 0 -25px 18px -14px inset, rgba(1, 1, 1, .15) 0 1px 2px,
+   rgba(1, 1, 1, .15) 0 2px 4px, rgba(1, 1, 1, .15) 0 4px 8px, rgba(1, 1, 1, .15) 0 8px 16px,
+    rgba(1, 1, 1, .15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 90%;
+}
+
+table button:hover {
+  box-shadow: rgba(38, 40, 38, 0.35) 0 -25px 18px -14px inset,
+      rgba(38, 40, 38, 0.35) 0 1px 2px,
+      rgba(38, 40, 38, 0.35) 0 2px 4px,
+      rgba(38, 40, 38, 0.35) 0 4px 8px,
+      rgba(38, 40, 38, 0.35) 0 8px 16px, rgba(38, 40, 38, 0.35) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
