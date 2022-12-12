@@ -37,6 +37,8 @@ html {
   color: white;
   margin: 50px;
   margin-top: 20px;
+  font-style: oblique;
+  line-height: 1.8;
 }
 
 #about-sec-2 {
@@ -46,6 +48,7 @@ html {
   color: white;
   margin: 50px;
   margin-top: 20px;
+  font-style: oblique;
 }
 
 #about-sec-3 {
@@ -63,7 +66,15 @@ html {
 
 .container {
   padding: 0 16px;
+  line-height: 1.5;
 }
+
+
+.container ul li {
+ list-style: none;
+ padding: 3%;
+}
+
 
 .container::after,
 .row::after {
@@ -73,7 +84,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: white;
 }
 
 .button {
@@ -86,6 +97,7 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  margin-top: 5px;
 }
 
 .button:hover {
