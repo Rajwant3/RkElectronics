@@ -127,6 +127,7 @@
     float: right;
     width: 25%;
     padding: 0 10px;
+    margin-bottom: 30%;
     
   }
   
@@ -135,6 +136,19 @@
 
   .row{
     margin-bottom: 30%;
+    /* width: 70%; */
+    /* margin-left: 30%; */
+    position: relative;
+
+    z-index: -100;
+  }
+
+  #left_nav{
+    margin-bottom: 30%;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 100;
+
   }
   
   /* Clear floats after the columns */

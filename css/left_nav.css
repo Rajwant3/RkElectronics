@@ -8,6 +8,7 @@
     position: fixed;
     height: fit-content;
     border: 2px dotted rgba(0,0,0,0.2);
+    /* margin-bottom: 30%; */
     
     /* overflow: visible; */
   }
