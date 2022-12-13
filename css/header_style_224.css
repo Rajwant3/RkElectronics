@@ -5,12 +5,6 @@ body {
     
 }
 
-header img {
-    display: inline;
-    width: 100%;
-    height: 10%;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -20,8 +14,6 @@ nav {
     background-color: #233647;
     text-align: right;
     padding: 20px;
-
-    /* margin: 10px; */
 }
 
 nav li {
@@ -52,20 +44,10 @@ nav li a:hover {
     top: 15px;
     left: 15px;
     padding: 11px;
-
-    /* width:1;
-    height:40px; */
     color: white;
-    /* overflow: hidden; */
-    /* font-weight: bold; */
     text-transform: uppercase;
 
 }
-
-/* #about_us_body {
-    background-image: url("../images/background/bg-5.jpg");
-} */
-
 @media screen and (max-width: 900px) {
     ul.top_nav {
         width: 100%;
@@ -121,20 +103,14 @@ nav li a:hover {
     display: block;
 }
 
-
-
 #searchbox {
     float: right;
     padding: 3px;
-    /* margin-top: 8px; */
     margin-right: 16px;
     border: none;
     font-size: 17px;
     border: 2px solid white;
     border-radius: 30px;
-    /* margin: 0 8px; */
-    /* padding-top:l 1px; */
-    /* height: ; */
   }
   
   @media screen and (max-width: 600px) {
@@ -149,8 +125,5 @@ nav li a:hover {
     
    #searchbox{
       border: 1px solid #ccc;  
-      /* height: 40px;
-      width: 180%; */
     }
   }
-/* Header section styling end. */

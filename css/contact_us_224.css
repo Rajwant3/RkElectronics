@@ -1,18 +1,16 @@
-
 .contact-section {
     padding: 50px;
     text-align: center;
     background-color: black;
     opacity: 0.9;
-        color: white;
+    color: white;
     margin: 50px;
     margin-top: 20px;
     font-style: oblique;
-  }
+}
 
 #contact_content {
     background-color: antiquewhite;
-    /* margin: 10px; */
 }
 
 .contact_medium {
@@ -22,57 +20,37 @@
     padding: 2%;
     width: 29.1%;
     height: 300px;
-    /* display: flex;
-    justify-content: center;     */
-    /* margin: auto; */
-    /* width: 30%; */
-
 }
 
 .contact_medium a {
     text-decoration: none;
     color: black;
-    /* margin: auto; */
-    /* width: 30%; */
-
 }
 
 
-.contact-section{
+.contact-section {
     font-style: oblique;
 }
 
 #text_content {
     background-color: black;
     color: white;
-    /* width: 100%; */
     text-align: center;
     opacity: 1;
     padding: 10px;
     line-height: 1.8;
-
-    /* padding: 5px; */
-
 }
 
 #contact_options {
     background-color: white;
-    /* opacity: 0.8; */
     color: black;
-    /* width: fit-content; */
-    /* position:fixed; */
-    /* top:10%; */
-    /* right:3%; */
     margin: auto;
     margin-top: 2%;
     width: 90%;
     height: fit-content;
     border: 2px solid black;
     margin-bottom: 20%;
-
     overflow: auto;
-
-    /* padding: 3%; */
 }
 
 .contact_logo {
@@ -85,8 +63,6 @@
 
 table {
     border-spacing: 10px;
-    /* width: 100%; */
-    /* color: teal; */
 }
 
 table input,
@@ -127,26 +103,19 @@ textarea {
 
 }
 
-/* CSS */
 table button {
     background-color: black;
     border-radius: 100px;
     box-shadow: rgba(1, 1, 1, .2) 0 -25px 18px -14px inset, rgba(1, 1, 1, .15) 0 1px 2px,
-     rgba(1, 1, 1, .15) 0 2px 4px, rgba(1, 1, 1, .15) 0 4px 8px, rgba(1, 1, 1, .15) 0 8px 16px,
-      rgba(1, 1, 1, .15) 0 16px 32px;
+        rgba(1, 1, 1, .15) 0 2px 4px, rgba(1, 1, 1, .15) 0 4px 8px, rgba(1, 1, 1, .15) 0 8px 16px,
+        rgba(1, 1, 1, .15) 0 16px 32px;
     color: white;
     cursor: pointer;
     display: inline-block;
-    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
     padding: 7px 20px;
     text-align: center;
-    text-decoration: none;
-    transition: all 250ms;
     border: 0;
     font-size: 16px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
     margin-left: 90%;
 }
 

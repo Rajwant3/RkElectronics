@@ -2,15 +2,11 @@
     list-style-type: none;
     margin-top: 50px;
     padding: 0;
-
     width: fit-content;
     background-color: black;
     position: fixed;
     height: fit-content;
     border: 2px dotted rgba(0,0,0,0.2);
-    /* margin-bottom: 30%; */
-    
-    /* overflow: visible; */
   }
   
   #left_nav li a {
@@ -32,10 +28,6 @@
 #left_nav li:first-of-type{
 	background-color: white;
   color: black;
-  /*  */
-  /* padding: 8px 16px; */
-
-  /* position: absolute; */
   top: 15px;
   left: 15px;
   padding: 11px;

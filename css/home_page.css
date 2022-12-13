@@ -1,13 +1,7 @@
-/* #main_div_1{
-    background-image: url("../images/background/background-img.jpg");
-    width: 80%;
-    height: 80%;
-    background-color: red;
-} */
 
-
+/*
+*/
 #main_div_1 {
- 
     margin: 5%;
     margin-left: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
@@ -22,8 +16,6 @@
     padding: 20px;
     border: 2px solid white;
     border-radius: 30px;
-
-
 }
 
 @keyframes maindiv {
@@ -59,11 +51,3 @@
     text-shadow: 2px 2px 4px #000000;
 
 }
-
-/* 
-#slideshow {
- width: 900px;
- height: 150px;
- background: url("../images/sliders/slider-home/home-1.jpeg");
- margin: 20px auto;
-} */
