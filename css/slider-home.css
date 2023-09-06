@@ -23,8 +23,8 @@
     box-sizing: border-box;
 }
 .slowFade {
-    display: flex;
-    align-items: flex-start;
+    /* display: flex;
+    align-items: flex-start; */
     background: #fff;
     height: 100vh;
     overflow: hidden;
